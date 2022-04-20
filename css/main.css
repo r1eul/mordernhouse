@@ -1,0 +1,66 @@
+@charset "utf-8";    
+/*슬라이더*/
+    #slider {width:100%; height:630px; margin:0 auto;}
+    #slider > .imgbox {width:100%; height:440px;  margin:0 auto; overflow:hidden;}
+    #slider > .imgbox img {width:100%; height:100%;}
+
+    #slider > h1 {width:1200px; height:70px; padding:15px 0 0 0px; margin:0 auto; text-align:center; text-decoration:none;padding:20px 0 0 0px}
+
+    #slider > p {width:1200px; height:50px; font-size:15px;text-align:center; text-decoration:none; padding:10px; margin:0 auto;}
+    
+    #slider > .btbox {width:1200px; height:70px; margin:0 auto; padding:10px;}
+
+    #slider > .btbox > button {}
+
+
+    
+/*섹션*/
+    /*메뉴*/
+    #menu2 {width:1200px; height:170px; margin:0 auto;}
+    #menu2 > .icon {width:77px; height:105px; float:left; margin:30px 21px;}
+    #menu2 > .icon > span > a {font-size:13px; font-weight:bold; text-align:center; text-decoration:none; display:block; color: #333;}
+
+
+    /*베스트*/
+    #best {width:1200px; height:1620px; margin:0 auto;}
+    #best > h1 {width:800px; height:90px; float:left; margin:30px 0 40px 0px; padding:40px 0 0 0px;}
+    #best > h1 > a {font-size:37px; text-decoration:none; text-align:left; color:#000; margin:0 0 0 16px;}
+
+    #all {width:100px; height:90px; float:right; margin:30px 0 0 0px; padding:70px 0 0 0px;}
+    #all > span > a { color:#000; font-size:15px; text-decoration:none; font-weight:bold; float:right; margin:0 16px 0 0px;}
+
+    #best > #bestmenu {width:1000px; height:50px; margin:0 0 0 200px;  float:right;}
+    #bestmenu > ul {font-size:15px; font-weight:bold;}
+    #bestmenu > ul > li {float:left; margin:15px 19px 0 0px;}
+    #bestmenu > ul > li > a {text-decoration:none; color:#000;}
+
+    #best > .box {width:300px; height:430px; float:left; padding:40px 16px;}
+    #best > .box > a > img {width:268px; height:268px; margin:0 0 10px 0px;}
+
+    #best > .box > .prname > a {font-size:13px; color:#000; margin:10px 0 0 0px; text-decoration:none; text-align:left; display: block; margin:10px 0 10px 0px;}
+    #best > .box > .cost > a {font-size:18px; color:#666; text-decoration:none;}
+    #best > .box > .dis > a {font-size:22px; font-weight:bold; color:#000; text-decoration:none;}
+    .cart {width:27px; height:27px; padding:2px; float:right; overflow:hidden; margin:2px 7px 0 0px;}
+    .cart > a > img {width:92%; height:92%;}
+
+
+
+    /*배너*/
+    #banner {width:100%; height:210px; margin:0 auto;}
+    .bnbox {width:100%; height:210px; margin:80px 0 100px 200px; margin:0 auto;}
+    .bnbox > a > img {width:100%; height:210px;}
+
+
+    /*뉴*/
+    #new {width:1200px; height:1550px; margin:0 auto;}
+    #new > h1 {width:800px; height:90px; float:left; margin:30px 200px 10px 0px; padding:40px 0 0 0px;}
+    #new > h1 > a {font-size:37px; text-decoration:none; text-align:left; color:#000; margin:0 0 0 16px;}
+
+    #new > .box {width:300px; height:430px; float:left; padding:40px 16px;}
+    #new > .box > a > img {width:268px; height:268px; margin:0 0 10px 0px;}
+
+    #new > .box > .prname > a {font-size:13px; color:#000; margin:10px 0 0 0px; text-decoration:none; text-align:left; display: block; margin:10px 0 10px 0px;}
+    #new > .box > .cost > a {font-size:18px; color:#666; text-decoration:none;}
+    #new > .box > .dis > a {font-size:22px; font-weight:bold; color:#000; text-decoration:none;}
+    .cart {width:27px; height:27px; padding:2px; float:right; overflow:hidden; margin:2px 7px 0 0px;}
+    .cart > a > img {width:92%; height:92%;}

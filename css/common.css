@@ -1,0 +1,65 @@
+@charset "utf-8"; 
+/*헤더*/
+    header {width:100%; height:180px; margin:0 auto; float:top;}
+    #hdbox {width:1200px; height:180px; margin:0 auto; float:top;}
+    #hdlogo {width:220px; height:50px; margin:38px 0 0 0px; float:left; overflow:hidden;}
+    #hdlogo > a > img {width:100%; heigth:50px; margin:7px 0 0 0px;}
+
+    #search {width:470px; height:50px; margin:40px 15px 0 135px; float:left;}
+    input {width:440px; height:35px; border-radius:30px; border:1px solid gray; margin:5px 13px; padding:0 0 0 15px; font-size: 14px;}
+    input:focus {outline:none;}
+    
+    #login {width:240px; height:50px; margin:38px 0 0 0px; float:left;}
+    #login > ul {font-size: 13px;}
+    #login > ul > li {float:left; margin:15px 15px;}
+    #login > ul > li > a {text-decoration:none; color:#000;}
+
+    .hdicon {width:40px; height:50px; margin:38px 12px 0 0px; display:inline-block; float:right; overflow:hidden;}
+    .hdicon > a > img {width:24px; height:24px; display:center; margin:13px 0px;}
+
+    nav {width:1200px; height:40px; margin:44px 0 0 0px; float:left;}
+    nav > ul {font-size:15px; font-weight:bold;}
+    nav > ul > li {float:left; margin:10px 40px 0 41px;}
+    nav > ul > li > a {text-decoration:none; color:#000;}
+    nav > ul > li > a:hover {color:red;}
+
+/*푸터*/
+    /*푸터 1*/
+    footer {width:100%; height:380px; margin:0 auto; background-color:lightgray;}
+    #ftbox {width:1200px; height:380px; margin:0 auto;}
+/*푸터 1 크기 수정*/
+    #ft1 {width:850px; height:330px; float:left; margin:30px 0 0 0px;}
+      #ftlogo {width:200px; height:40px; margin:0 0 0 0px; float:left; overflow:hidden; }
+      #ftlogo > a > img {width:100%; heigth:50px; margin:7px 0 0 0px;}
+
+      #list {width:940px; height:25px; margin:70px 0 20px 0px;}
+      #list > ul {font-size:12px; font-weight:bold;}
+      #list > ul > li {float:left; margin:2px 18px 0 0px;}
+      #list > ul > li > a {text-decoration:none; color:#000;}
+
+      /*리스트 수정하기*/
+      #info {width:940px; height:27px; margin:0 0px;}
+      #info > ul {font-size:12px;}
+      #info > ul > li {float:left; margin:5px 13px 0 0px;}
+      #info > ul > li > a {text-decoration:none; color:#000;}
+
+      /*푸터 토스*/
+      #toss {width:900px; height:120px; }
+      #comodo {width:85px; height:85px; float:left; margin:18px 0px;}
+      #comodo > img {height:100%;}
+      #toss > p {width:670px; height:25px; float: left; margin:38px 0 0 13px; font-size:13px;}
+      #toss > span > a {width:145px; height:25px; float: left; margin:3px 0 0 13px; text-decoration:none; color:#000; font-size:12px;}
+      #toss > span > a > b:hover {color:red;}
+      
+      
+      #ft1 > p {width:940px; height:25px; margin:5px 0 0 0px; font-size:12px;}
+
+     /*푸터 2*/
+     #ft2 {width:185px; height:190px; float:left; color:#000;  margin:100px 0 0 75px;}
+     #ft2 > h2 {width:185px; height:30px; float:left; font-size:25px;}
+     #ft2 > h1 {width:185px; height:40px; font-size:30px; float:left;}
+     #ft2 > h1 > a {text-decoration:none; color:#000;}
+     #ft2 > h3 {width:185px; height:38px; font-size:17px; float:left; padding:8px 0 0 2px; margin:0 0 0 2px;}
+     #ft2 > p {width:185px; height:25px; float:left;font-size:13px; margin:0 0 0 2px;}
+
+     .fticon {width:25px; height: 25px; overflow:hidden; float:left; display:inline-block; margin:10px 10px 0 3px;}
